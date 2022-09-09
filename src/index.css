@@ -16,6 +16,14 @@
   scroll-behavior: smooth;
 }
 
+.heroBackground {
+  background-image: url('./assets/heroBg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(150%);
+}
+
 .text-gradient {
   background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
       #a8e2e2 0.89%,
@@ -61,7 +69,9 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  /* background: linear-gradient(125.17deg, #272727 0%, #11101d 100%); */
+  /* background: linear-gradient(to right, #ffb75e, #ed8f03); */
+  background-image: linear-gradient(to right bottom, #0025aa, #003bb0, #004cb2, #005bb0, #0068ad, #0077b3, #0086b6, #1c94b8, #31aac5, #4ac0d1, #64d6dc, #81ece6);
 }
 
 .box-shadow {
@@ -97,11 +107,11 @@
   }
 }
 
-.feature-card:hover,
+/* .feature-card:hover,
 .feedback-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
-}
+} */
 
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;

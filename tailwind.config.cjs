@@ -8,7 +8,6 @@ module.exports = {
         primary: "rgba(255, 255, 255, 0.7)",
         secondary: "#00f6ff",
         dimBlue: "rgba(9, 151, 124, 0.1)",
-        nero: "#272727",
         russianBlack: "#00040f",
       },
       fontFamily: {
