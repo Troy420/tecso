@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style';
 
-import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from './components';
+import { Navbar, Hero, Stats, Business, Support, StorageSupp, Testimonials, Clients, CTA, Footer } from './components';
 
 const App = () => {
   return (
@@ -22,8 +22,8 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
-          <Billing />
-          <CardDeal />
+          <Support />
+          <StorageSupp />
           <Testimonials />
           <Clients />
           <CTA />

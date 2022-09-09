@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from '../style';
-// import { star  } from '../assets';
-import hpe from '../assets/hpe.svg';
-import server from '../assets/server.png';
+import { star, server  } from '../assets';
 import GetStarted from './GetStarted';
 
 const Hero = () => {
@@ -17,8 +15,8 @@ const Hero = () => {
         <div
           className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'
         >
-          <img src={hpe} alt="hpe" className='w-[100px] h-[100px]' />
-          <p className={`${styles.paragraphLight} ml-10`}>
+          <img src={star} alt="star" className='w-[32px] h-[32px]' />
+          <p className={`${styles.paragraphLight} ml-5`}>
             HPE RPB Genuine Parts Distributor
           </p>
         </div>
@@ -40,7 +38,7 @@ const Hero = () => {
         </h1>
 
         <p className={`${styles.paragraphDark} max-w-[470px] mt-5`}>
-          Multi-vendor support for storage, server, and networking hardware. You will receive the attention you need to keep your server equipment up and running. Along with third party server maintenance,
+          Multi-vendor support for storage, server, and networking hardware. You will receive the attention you need to keep your server equipment up and running. Along with third party server maintenance.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

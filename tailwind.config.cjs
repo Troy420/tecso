@@ -9,7 +9,7 @@ module.exports = {
         secondary: "#00f6ff",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         nero: "#272727",
-        blackRussian: "#00040f",
+        russianBlack: "#00040f",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

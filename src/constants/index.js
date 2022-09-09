@@ -38,23 +38,21 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "Data Center Hardware Sales ",
+    content: "New and preowned networking, server, and storage equipment ",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Hardware Maintenance",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Multi-vendor support for storage, server, and networking hardware.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "Professional Services",
+    content: "Flexible, dependable IT Support services.",
   },
 ];
 

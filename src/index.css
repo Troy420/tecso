@@ -106,9 +106,9 @@
   margin-right: 0px;
 }
 
-.feedback-card {
-  background: transparent;
-}
+/* .feedback-card {
+  background: var(--bg-black-gradient);
+} */
 
 .feedback-card:hover {
   background: var(--black-gradient);
@@ -128,7 +128,3 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
-
-/* .navbar img {
-  height: 100px;
-} */

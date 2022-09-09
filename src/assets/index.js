@@ -23,6 +23,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import wa from "./wa.png";
+import hardware from "./hardware.png";
+import server from "./server.png";
+import components from "./components.png";
 
 export {
   airbnb,
@@ -50,4 +54,8 @@ export {
   people01,
   people02,
   people03,
+  wa,
+  hardware,
+  server,
+  components,
 };
