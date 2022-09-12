@@ -10,7 +10,7 @@ const Hero = () => {
       className={`flex md:flex-row flex-col`}
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 py-6`}
       >
         <div
           className='flex flex-row items-center py-[6px] px-4 bg-black-gradient-2 rounded-[10px] mb-2'
@@ -48,7 +48,7 @@ const Hero = () => {
         <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient' />
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
+      <div className={`ss:hidden ${styles.flexCenter} py-6`}>
         <GetStarted />
       </div>
     </section>

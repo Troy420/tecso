@@ -22,7 +22,6 @@ const Support = () => {
 
         <div className='flex flex-row flex-wrap sm:mt-6 mt-4'>
           <a href="https://wa.me/628161816821?text=Halo%20IT%20Support%2C%0ASaya%20mendapatkan%20whatsapp%20dari%20website%20bintang%0ABoleh%20saya%20bertanya%3F" target="_blank">
-            {/* <img src={wa} alt="whatsapp" className='w-[80px] object-contain mr-5 cursor-pointer' /> */}
             <IoLogoWhatsapp className='text-[80px]' />
           </a>
           
