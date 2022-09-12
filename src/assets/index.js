@@ -27,6 +27,7 @@ import wa from "./wa.png";
 import hardware from "./hardware.png";
 import server from "./server.png";
 import components from "./components.png";
+import logo from "./logoBintang.png"
 
 export {
   airbnb,
@@ -58,4 +59,5 @@ export {
   hardware,
   server,
   components,
+  logo
 };

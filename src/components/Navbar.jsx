@@ -1,7 +1,5 @@
 import {useState} from 'react';
-
-import {close, menu} from '../assets';
-import logoBintang from '../assets/logoBintang.png';
+import {close, menu, logo} from '../assets';
 import {navLinks} from '../constants';
 
 const Navbar = () => {
@@ -9,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logoBintang} alt="Bintang" className='h-[120px]'/>
+      <img src={logo} alt="Bintang" className='h-[120px]'/>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
