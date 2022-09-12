@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../style';
-import {logo} from '../assets';
+import {logoBintang} from '../assets';
 import {footerLinks, socialMedia} from '../constants';
 
 const Footer = () => {
