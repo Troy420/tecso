@@ -17,11 +17,19 @@
 }
 
 .heroBackground {
-  background-image: url('./assets/heroBg.jpg');
+  background-image: url('./assets/heroBg2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(150%);
+}
+
+.supportBackground {
+  background-image:url('./assets/network-hardware-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: inherit;
+  border-bottom-left-radius: 300px;
+  border-top-right-radius: 300px;
 }
 
 .text-gradient {

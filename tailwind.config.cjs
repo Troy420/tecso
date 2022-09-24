@@ -6,9 +6,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "rgba(255, 255, 255, 0.7)",
-        secondary: "#00f6ff",
+        heroTxtColor: "#A1C2E8",
         dimBlue: "rgba(9, 151, 124, 0.1)",
-        russianBlack: "#00040f",
+        russianBlack: "#151019",
+        // russianBlack: "#00040f",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
