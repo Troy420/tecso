@@ -33,11 +33,10 @@
 }
 
 .testimoHeaderBackground {
-  background-image: url('./assets/what-we-say-bg.jpg');
-  background-size: 65%;
+  background-image: url('./assets/what-we-say.webp');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-position-x: 80%;
 }
 
 .text-gradient {
@@ -62,6 +61,13 @@
       #7de7eb 29.82%,
       #5ce1e6 51.94%,
       #33bbcf 90.29%);
+}
+
+.bg-blue-gradient-2 {
+  background: linear-gradient(-168.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #112A46 91.61%);
 }
 
 .bg-black-gradient {
@@ -146,4 +152,16 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+#clients::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #112A46;
+  transform-origin: bottom left;
+  transform: skew(87deg);
 }

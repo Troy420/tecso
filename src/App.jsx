@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style';
 
-import { Navbar, Hero, Stats, Business, Support, StorageSupp, Testimonials, CTA, Footer } from './components';
+import { Navbar, Hero, Stats, Business, Support, StorageSupp, Clients, Testimonials, CTA, Footer } from './components';
 
 const App = () => {
   return (
@@ -18,12 +18,13 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
           <Support />
           <StorageSupp />
+          <Clients />
           <Testimonials />
           <CTA />
           <Footer />

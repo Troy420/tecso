@@ -8,7 +8,7 @@ const styles = {
   paragraphLight:
     "font-poppins font-normal text-white text-[18px] leading-[30.8px]",
   paragraphDark:
-    "font-poppins font-normal text-nero text-[18px] leading-[30.8px]",
+    "font-poppins font-normal text-testimoTxtColor text-[18px] leading-[30.8px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

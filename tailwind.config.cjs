@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: "rgba(255, 255, 255, 0.7)",
         heroTxtColor: "#A1C2E8",
+        testimoTxtColor: "#20373C",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         russianBlack: "#151019",
         // russianBlack: "#00040f",

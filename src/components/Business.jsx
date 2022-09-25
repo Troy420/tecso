@@ -5,7 +5,7 @@ import Button from './Button';
 
 const FeatureCard = ({icon, title, content, index}) => {
   return (
-    <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card bg-discount-gradient w-[100%]`}>
+    <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card bg-blue-gradient-2 w-[100%]`}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
         <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain'/>
       </div>
@@ -25,7 +25,7 @@ const Business = () => {
   return (
     <section 
       id="features" 
-      className={layout.section}
+      className={`${layout.section} ${styles.paddingX}`}
     >
       <div
         className={layout.sectionInfo}
