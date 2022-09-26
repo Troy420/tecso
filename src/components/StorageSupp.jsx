@@ -12,7 +12,7 @@ const StorageSupp = () => {
         <Button styles='mt-10' />
       </div>
 
-      <div className={layout.sectionImg}>
+      <div className={`${layout.sectionImg} storageBackground`}>
         <img src={components} alt="components" className='w-[100%] h-[100%]'/>
       </div>
     </section>
