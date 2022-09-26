@@ -7,9 +7,9 @@ const Support = () => {
   return (
     <section 
       id="product" 
-      className={`${layout.sectionReverse} supportBackground`}
+      className={`${layout.sectionReverse} `}
     >
-      <div className={`${layout.sectionImgReverse} relative ${styles.paddingX}`}>
+      <div className={`${layout.sectionImgReverse} relative ${styles.paddingX} supportBackground`}>
         <img src={hardware} alt="hardware" className='w-[100%] relative z-[5]'/>
 
         <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient'></div>
