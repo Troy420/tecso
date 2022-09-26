@@ -22,6 +22,8 @@
   background-repeat: no-repeat;
   background-position-x: 80%;
   background-color: #112A46;
+
+  
 }
 
 .supportBackground {
@@ -153,15 +155,16 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
-/* 
-#clients::before {
-  content: "";
-  position: absolute;
-  top: -10%;
-  left: 0;
-  height: 10%;
-  width: 100%;
-  background-color: #112A46;
-  transform-origin: bottom left;
-  transform: skew(87deg);
-} */
+
+
+/*Mobile*/ 
+
+@media screen and (max-width: 768px) {
+  .heroBackground {
+    background-size: cover;
+  }
+
+  .testimoHeaderBackground {
+    background-position-y: -7%;
+  }
+}

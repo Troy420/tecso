@@ -16,7 +16,7 @@ const Hero = () => {
           className='flex flex-row items-center py-[6px] px-4 bg-blue-gradient-2 rounded-[10px] mb-2'
         >
           <img src={star} alt="star" className='w-[25px] h-[25px]' />
-          <p className={`${styles.paragraphLight} ml-5 text-primary`}>
+          <p className={`${styles.paragraphLight} ml-5 text-white`}>
             HPE RPB Genuine Parts Distributor
           </p>
         </div>
