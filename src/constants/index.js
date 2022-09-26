@@ -1,4 +1,8 @@
 import {
+  ibm,
+  huawei,
+  dell,
+  netapp,
   people01,
   people02,
   people03,
@@ -6,10 +10,6 @@ import {
   instagram,
   linkedin,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
   dataCenter,
   icons8HW,
   icons8Services,
@@ -193,18 +193,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: ibm,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: dell,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: huawei,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: netapp,
   },
 ];

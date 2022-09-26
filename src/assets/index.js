@@ -1,7 +1,7 @@
-import airbnb from "./airbnb.png";
-import binance from "./binance.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
+import dell from "./icons8-dell.png";
+import huawei from "./icons8-huawei.png";
+import ibm from "./icons8-ibm.png";
+import netapp from "./icons8-netapp.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import dataCenter from "./data-center.png";
@@ -32,10 +32,10 @@ import undrawMaintenance from "./undraw_maintenance.svg";
 import undrawTestimonial from "./undraw_public_discussion.svg";
 
 export {
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
+  dell,
+  huawei,
+  ibm,
+  netapp,
   logo,
   quotes,
   dataCenter,
