@@ -6,7 +6,7 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import dataCenter from "./data-center.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -25,9 +25,13 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import wa from "./wa.png";
 import hardware from "./hardware.png";
+import icons8HW from "./icons8-hardware.png";
+import icons8Services from "./icons8-services.png";
 import server from "./server.png";
 import components from "./components.png";
-import logoBintang from "./logoBintang.png"
+import logoBintang from "./logoBintang.png";
+import undrawMaintenance from "./undraw_maintenance.svg";
+import undrawTestimonial from "./undraw_public_discussion.svg";
 
 export {
   airbnb,
@@ -38,7 +42,7 @@ export {
   dropbox,
   logo,
   quotes,
-  robot,
+  dataCenter,
   send,
   shield,
   star,
@@ -59,5 +63,9 @@ export {
   hardware,
   server,
   components,
-  logoBintang
+  logoBintang,
+  icons8HW,
+  icons8Services,
+  undrawMaintenance,
+  undrawTestimonial,
 };

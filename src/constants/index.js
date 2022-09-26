@@ -12,7 +12,10 @@ import {
   dropbox,
   send,
   shield,
-  star,
+  // star,
+  dataCenter,
+  icons8HW,
+  icons8Services,
 } from "../assets";
 
 export const navLinks = [
@@ -37,20 +40,20 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: dataCenter,
     title: "Data Center Hardware Sales ",
     content: "New and preowned networking, server, and storage equipment ",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: icons8HW,
     title: "Hardware Maintenance",
     content:
       "Multi-vendor support for storage, server, and networking hardware.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: icons8Services,
     title: "Professional Services",
     content: "Flexible, dependable IT Support services.",
   },
