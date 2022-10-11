@@ -17,7 +17,7 @@ const Hero = () => {
         >
           <img src={star} alt="star" className='w-[25px] h-[25px]' />
           <p className={`${styles.paragraphLight} ml-5 text-white`}>
-            HPE RPB Genuine Parts Distributor
+            Stay Online, Anywhere. Anytime.
           </p>
         </div>
 

@@ -10,22 +10,23 @@ const Footer = () => {
         <div className='flex-1 flex flex-col justify-start mr-10'>
           <img src={logoBintang} alt="IT Support" className='w-[120px] object-contain' />
             <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
-            A new way to make the payments easy, reliable and secure.
+            As a Partner, Your Goals are Our Goals.
           </p>
         </div>
-        <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
-          {footerLinks.map((footerLink) => {
+        <div className='flex-[1.5] w-full flex flex-row justify-end flex-wrap md:mt-0 mt-10'>
+          {footerLinks.map((footerLink, index) => {
             return (
-              <div key={footerLink.key} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
+              <div key={index} className="flex flex-col ss:my-0 my-4 min-w-[150px]">
                 <h4 className='font-poppins foint-medium text-[18px] leading-[27px] text-russianBlack'>
                   {footerLink.title}
                 </h4>
                 <ul className='list-none mt-4'>
-                  {footerLink.links.map((link, index) => {
+                  {footerLink.details.map((detail, index) => {
                     return (
-                      <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-russianBlack hover:text-secondary cursor-pointer ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}`}
+                      <li key={index} className={`flex flex-col font-poppins font-normal text-[16px] leading-[24px] text-russianBlack ${index !== footerLink.details.length - 1 ? 'mb-4' : 'mb-0'}`}
                       >
-                        {link.name}
+                        <p>{detail.name}</p>
+                        <p>{detail.detail}</p>
                       </li>
                     )
                   })}

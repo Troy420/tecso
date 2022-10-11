@@ -10,7 +10,6 @@ module.exports = {
         testimoTxtColor: "#20373C",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         russianBlack: "#151019",
-        // russianBlack: "#00040f",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
