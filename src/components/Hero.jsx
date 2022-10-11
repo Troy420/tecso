@@ -10,7 +10,7 @@ const Hero = () => {
       className={`flex md:flex-row flex-col`}
     >
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 py-6`}
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-8 py-8`}
       >
         <div
           className='flex flex-row items-center py-[6px] px-4 bg-blue-gradient-2 rounded-[10px] mb-2'
