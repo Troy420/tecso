@@ -18,7 +18,7 @@ const Support = () => {
 
       <div className={`${layout.sectionInfo} ${styles.paddingX}`}>
         <h2 className={`${styles.heading2} text-[#112A46]`}>Network Hardware <br className='sm:block hidden'/> Support & Maintenance.</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Whether it's your wireless access point, fiber channel switch, or network director that has reached the end of its initial warranty, Park Place Technologies provides world-class optimization, support and network maintenance services for OEMs like Cisco, Brocade and HPE..</p>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Whether it's your wireless access point, fiber channel switch, or network director that has reached the end of its initial warranty, PT. bintang informasi teknologi provides world-class optimization, support and network maintenance services for OEMs like Cisco, Brocade and HPE..</p>
 
         <div className='flex flex-row flex-wrap sm:mt-6 mt-4'>
           <a href="https://wa.me/628161816821?text=Halo%20IT%20Support%2C%0ASaya%20mendapatkan%20whatsapp%20dari%20website%20bintang%0ABoleh%20saya%20bertanya%3F" target="_blank">

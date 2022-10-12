@@ -47,7 +47,8 @@
 .testimoHeaderBackground {
   background-image: url('./assets/undraw_public_discussion.svg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 300px center;
+  background-size: cover;
 }
 
 .text-gradient {
@@ -165,6 +166,14 @@
   filter: blur(750px);
 }
 
+/*Tablet*/
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .testimoHeaderBackground {
+    background-position: right;
+    background-size: 150%;
+  }
+}
 
 /*Mobile*/ 
 
@@ -174,6 +183,7 @@
   }
 
   .testimoHeaderBackground {
-    background-position-y: 7%;
+    background-position: center;
+    background-size: 193%;
   }
 }

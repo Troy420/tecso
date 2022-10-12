@@ -30,8 +30,34 @@ import components from "./components.png";
 import logoBintang from "./logoBintang.png";
 import undrawMaintenance from "./undraw_maintenance.svg";
 import undrawTestimonial from "./undraw_public_discussion.svg";
+import Hitachi from "./Hitachi_Logo-removebg-preview.png";
+import Fujitsu from "./Fujitsu_Logo-removebg-preview.png";
+import Lenovo from "./Lenovo_Logo-removebg-preview.png";
+import Juniper from "./Juniper_Logo-removebg-preview.png";
+import Quantum from "./Quantum_Logo-removebg-preview.png";
+import Overlandtandberg from "./Overlandtandberg_Logo-removebg-preview.png";
+import Supermicro from "./Supermicro_Logo-removebg-preview.png";
+import Arista from "./Arista_Logo-removebg-preview.png";
+import Brocade from "./Brocade_Logo-removebg-preview.png";
+import SunOracle from "./SunOracle_Logo-removebg-preview.png";
+import DellEMC from "./DellEMC_Logo-removebg-preview.png";
+import Cisco from "./Cisco_Logo-removebg-preview.png";
+import StorageTech from "./Storage_Technology_corporation-Logo.wine_.png";
 
 export {
+  Hitachi,
+  Fujitsu,
+  Lenovo,
+  Juniper,
+  Quantum,
+  Overlandtandberg,
+  Supermicro,
+  Arista,
+  Brocade,
+  SunOracle,
+  DellEMC,
+  Cisco,
+  StorageTech,
   dell,
   huawei,
   ibm,

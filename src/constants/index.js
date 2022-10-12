@@ -13,6 +13,19 @@ import {
   dataCenter,
   icons8HW,
   icons8Services,
+  Hitachi,
+  Fujitsu,
+  Lenovo,
+  Juniper,
+  Quantum,
+  Overlandtandberg,
+  Supermicro,
+  Arista,
+  Brocade,
+  SunOracle,
+  DellEMC,
+  Cisco,
+  StorageTech,
 } from "../assets";
 
 export const navLinks = [
@@ -199,5 +212,57 @@ export const clients = [
   {
     id: "client-4",
     logo: netapp,
+  },
+  {
+    id: "client-5",
+    logo: Hitachi,
+  },
+  {
+    id: "client-6",
+    logo: Fujitsu,
+  },
+  {
+    id: "client-7",
+    logo: Lenovo,
+  },
+  {
+    id: "client-8",
+    logo: Juniper,
+  },
+  {
+    id: "client-9",
+    logo: Quantum,
+  },
+  {
+    id: "client-10",
+    logo: Overlandtandberg,
+  },
+  {
+    id: "client-11",
+    logo: Supermicro,
+  },
+  {
+    id: "client-12",
+    logo: Arista,
+  },
+  {
+    id: "client-13",
+    logo: Brocade,
+  },
+  {
+    id: "client-14",
+    logo: SunOracle,
+  },
+  {
+    id: "client-15",
+    logo: DellEMC,
+  },
+  {
+    id: "client-16",
+    logo: Cisco,
+  },
+  {
+    id: "client-17",
+    logo: StorageTech,
   },
 ];
