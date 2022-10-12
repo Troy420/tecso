@@ -41,7 +41,7 @@ import Arista from "./Arista_Logo-removebg-preview.png";
 import Brocade from "./Brocade_Logo-removebg-preview.png";
 import SunOracle from "./SunOracle_Logo-removebg-preview.png";
 import DellEMC from "./DellEMC_Logo-removebg-preview.png";
-import Cisco from "./Cisco_Logo-removebg-preview.png";
+import Cisco from "./Cisco_Logo.png";
 import StorageTech from "./Storage_Technology_corporation-Logo.wine_.png";
 
 export {
