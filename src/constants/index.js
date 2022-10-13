@@ -1,7 +1,6 @@
 import {
   ibm,
   huawei,
-  dell,
   netapp,
   people01,
   people02,
@@ -26,6 +25,7 @@ import {
   DellEMC,
   Cisco,
   StorageTech,
+  HPE,
 } from "../assets";
 
 export const navLinks = [
@@ -120,17 +120,17 @@ export const footerLinks = [
     details: [
       {
         name: "Email",
-        detail: "bintanginformasiteknologi@gmail.com",
+        detail: "bintang.it2706@gmail.com",
       },
       {
         name: "Address",
         detail:
-          "Ciputra International Lantai 17 Unit 2, Jalan Lingkar Luar Barat Nomor 101",
+          "Ciputra International Lantai 17 Unit 2, Jalan Lingkar Luar Barat Nomor 101, Desa/Kelurahan Rawa Buaya, Kec. Cengkareng, Kota Adm. Jakarta Barat, Provinsi DKI Jakarta. Kode Pos: 11740",
       },
-      // {
-      //   name: "Phone",
-      //   detail: "+62 12121212",
-      // },
+      {
+        name: "Phone",
+        detail: "+6282111985775",
+      },
     ],
   },
   // {
@@ -202,10 +202,6 @@ export const clients = [
     logo: ibm,
   },
   {
-    id: "client-2",
-    logo: dell,
-  },
-  {
     id: "client-3",
     logo: huawei,
   },
@@ -264,5 +260,9 @@ export const clients = [
   {
     id: "client-17",
     logo: StorageTech,
+  },
+  {
+    id: "client-2",
+    logo: HPE,
   },
 ];

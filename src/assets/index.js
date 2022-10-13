@@ -1,7 +1,6 @@
-import dell from "./icons8-dell.png";
-import huawei from "./icons8-huawei.png";
-import ibm from "./icons8-ibm.png";
-import netapp from "./icons8-netapp.png";
+import huawei from "./Huawel_Logo-removebg-preview.png";
+import ibm from "./ibm-removebg-preview.png";
+import netapp from "./NetApp_Logo-removebg-preview.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import dataCenter from "./data-center.png";
@@ -43,6 +42,7 @@ import SunOracle from "./SunOracle_Logo-removebg-preview.png";
 import DellEMC from "./DellEMC_Logo-removebg-preview.png";
 import Cisco from "./Cisco_Logo.png";
 import StorageTech from "./Storage_Technology.png";
+import HPE from "./HPE_Logo-removebg-preview.png";
 
 export {
   Hitachi,
@@ -58,7 +58,6 @@ export {
   DellEMC,
   Cisco,
   StorageTech,
-  dell,
   huawei,
   ibm,
   netapp,
@@ -90,4 +89,5 @@ export {
   icons8Services,
   undrawMaintenance,
   undrawTestimonial,
+  HPE,
 };
