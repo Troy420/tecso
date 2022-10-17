@@ -43,6 +43,7 @@ import DellEMC from "./DellEMC_Logo-removebg-preview.png";
 import Cisco from "./Cisco_Logo.png";
 import StorageTech from "./Storage_Technology.png";
 import HPE from "./HPE_Logo-removebg-preview.png";
+import Tokopedia from "./tokopedia-removebg-preview.png";
 
 export {
   Hitachi,
@@ -90,4 +91,5 @@ export {
   undrawMaintenance,
   undrawTestimonial,
   HPE,
+  Tokopedia,
 };
