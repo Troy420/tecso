@@ -4,7 +4,7 @@ import { arrowUp } from '../assets';
 
 const GetStarted = () => {
   return (
-    <a href="https://wa.me/628161816821?text=Halo%20IT%20Support%2C%0ASaya%20mendapatkan%20whatsapp%20dari%20website%20bintang%0ABoleh%20saya%20bertanya%3F" target="_blank">
+    <a href="https://wa.me/6282111985775?text=Halo%20IT%20Support%2C%0ASaya%20mendapatkan%20whatsapp%20dari%20website%20bintang%0ABoleh%20saya%20bertanya%3F" target="_blank">
       <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
         <div className={`${styles.flexCenter} flex-col bg-gray-gradient w-[100%] h-[100%] rounded-full`}>
           <div className={`${styles.flexStart} flex-row`}>
