@@ -30,8 +30,8 @@ const Business = () => {
       <div
         className={layout.sectionInfo}
       >
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden' /> we'll handle the server.</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>As infrastructure, digital IT, and cloud solutions provider, we can help to transform your business with cutting-edge technology to give bigger impact on the growth of your business.</p>
+        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden' /> We'll handle the server.</h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>As Infrastructure and Digital IT, we can help to transform your business with cutting-edge technology to give bigger impact on the growth of your business.</p>
 
         <Button styles="mt-10"/>
       </div>
