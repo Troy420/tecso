@@ -23,6 +23,10 @@ import {
   Cisco,
   StorageTech,
   HPE,
+  ExtremeNetwork,
+  Radware,
+  Digital,
+  Bull,
 } from "../assets";
 
 export const navLinks = [
@@ -261,5 +265,21 @@ export const clients = [
   {
     id: "client-2",
     logo: HPE,
+  },
+  {
+    id: "client-18",
+    logo: ExtremeNetwork,
+  },
+  {
+    id: "client-20",
+    logo: Digital,
+  },
+  {
+    id: "client-21",
+    logo: Bull,
+  },
+  {
+    id: "client-19",
+    logo: Radware,
   },
 ];

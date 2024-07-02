@@ -44,6 +44,10 @@ import Cisco from "./Cisco_Logo.png";
 import StorageTech from "./Storage_Technology.png";
 import HPE from "./HPE_Logo-removebg-preview.png";
 import Tokopedia from "./tokopedia-removebg-preview.png";
+import ExtremeNetwork from "./Extreme_network.jpg";
+import Radware from "./Radware.jpg";
+import Digital from "./Digital.png";
+import Bull from "./Bull.png";
 
 export {
   Hitachi,
@@ -92,4 +96,8 @@ export {
   undrawTestimonial,
   HPE,
   Tokopedia,
+  ExtremeNetwork,
+  Radware,
+  Digital,
+  Bull,
 };
