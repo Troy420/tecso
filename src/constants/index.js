@@ -121,7 +121,7 @@ export const footerLinks = [
     details: [
       {
         name: "Email",
-        detail: "bintang.it2706@gmail.com",
+        detail: "ptbintang.it@gmail.com",
       },
       {
         name: "Address",
@@ -130,7 +130,7 @@ export const footerLinks = [
       },
       {
         name: "Phone",
-        detail: "+6282111985775",
+        detail: "+6282246665407",
       },
     ],
   },
