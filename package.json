@@ -1,8 +1,8 @@
 {
-  "name": "ptbintang",
+  "name": "tecso",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://troy420.github.io/ptbintang",
+  "homepage": "https://troy420.github.io/tecso",
   "type": "module",
   "scripts": {
     "dev": "vite",
